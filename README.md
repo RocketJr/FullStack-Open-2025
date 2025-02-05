@@ -3,4 +3,5 @@ Different assignments for the Fullstack Open Course
 
 ## Assignments
 
-- [Part 0](Part0)
+- [Part 0](part0)
+- [Part 1](part1)
