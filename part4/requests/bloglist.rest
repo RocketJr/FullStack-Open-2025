@@ -12,4 +12,15 @@ content-type: application/json
 }
 
 ###
-DELETE http://localhost:3003/api/blogs/67bfae15c26dc3c2c48bfdd1
+PUT http://localhost:3003/api/blogs/id
+content-type: application/json
+
+{
+  "title": "Test blog",
+  "author": "Test author",
+  "url": "http://test.com",
+  "likes": 1
+}
+
+###
+DELETE http://localhost:3003/api/blogs/id
