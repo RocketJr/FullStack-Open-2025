@@ -3,6 +3,7 @@ GET http://localhost:3003/api/blogs
 ### 
 POST http://localhost:3003/api/blogs
 content-type: application/json
+Authorization: Bearer token_goes_here
 
 {
   "title": "Test blog",
@@ -12,15 +13,17 @@ content-type: application/json
 }
 
 ###
-PUT http://localhost:3003/api/blogs/id
+PUT http://localhost:3003/api/blogs/blog_id_goes_here
 content-type: application/json
 
 {
   "title": "Test blog",
   "author": "Test author",
   "url": "http://test.com",
-  "likes": 1
+  "likes": 1,
+  "userId": "user_id_goes_here"
 }
 
 ###
-DELETE http://localhost:3003/api/blogs/id
+DELETE http://localhost:3003/api/blogs/blog_id_goes_here
+Authorization: Bearer token_goes_here
