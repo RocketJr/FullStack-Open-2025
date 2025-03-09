@@ -54,7 +54,7 @@ const App = () => {
       setTimeout(() => {
         setNotification(null)
         setNotificationType('')
-      }, 5000)
+      }, 2000)
     }
   }
 
@@ -74,7 +74,7 @@ const App = () => {
         setTimeout(() => {
           setNotification(null)
           setNotificationType('')
-        }, 5000)
+        }, 2000)
       })
   }
 
