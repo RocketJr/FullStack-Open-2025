@@ -1,0 +1,18 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Leonardo Rikhardsson",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --project chromium",
+    "test:report": "playwright show-report",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.9"
+  }
+}
