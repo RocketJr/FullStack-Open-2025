@@ -9,3 +9,4 @@ Different assignments for the Fullstack Open Course
 - [Part 3](part3)
 - [Part 4](part4)
 - [Part 5](part5)
+- [Part 6](part6)
